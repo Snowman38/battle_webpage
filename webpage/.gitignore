@@ -127,3 +127,18 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#files
+.editconfig
+.env.example
+.gitattributes
+.gitignore
+.styleci.yml
+artisan
+composer.json
+composer.lock
+package-lock.json
+package.json
+phpunit.xml
+server.php
+webpack.mix.js
