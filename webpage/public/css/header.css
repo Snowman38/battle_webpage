@@ -1,0 +1,47 @@
+li {
+	list-style-type:none;		/*リストマーカー無しにする*/
+    padding-left: 15px;
+    font-size: large;
+}
+
+.login.items {
+  display: flex;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a.navbar-brand {
+  margin-left: 25px;
+  font-size: xx-large;
+}
+
+.header login.items {
+  flex: auto;
+}
+
+
+@media (max-width: 991.98px){
+  a.navbar-brand {
+    margin-right: auto;
+}
+}
+
+
+@media (max-width: 450px){
+  li {
+    padding-left: 5px;
+    font-size: medium;
+}
+.nav-link {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+  a.navbar-brand {
+    margin-left: 15px;
+    font-size: x-large;
+}
+}
+
